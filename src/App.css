@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #ff9a9e, #fad0c4); /* Colores pastel */
+  color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.app-background {
+  background-size: cover;
+  background-position: center;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.app-container {
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-bar {
+  background-color: #ff9a9e; /* Color pastel */
 }
+
+.title {
+  flex-grow: 1;
+  color: #fff;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.input {
+  width: 300px;
+  border-radius: 25px;
+}
+
+.button {
+  background-color: #007BFF; /* Azul */
+  color: #fff;
+}
+
+.spinner {
+  margin: 20px;
+}
+
+.alert {
+  margin: 20px;
+}
+
+.weather-card {
+  margin-top: 20px;
+}
+
+.city-name {
+  color: #ff7e5f; /* Color cálido */
+}
+
+.weather-info {
+  color: #333;
+}
+
+.weather-icon {
+  margin-right: 10px;
+}
+
+.map {
+  margin-top: 20px;
+}
+
+.video-container {
+  margin-top: 20px;
+}
+
+.weather-video {
+  width: 100%;
+  border-radius: 15px;
+}
+
+
+
+
+
+
